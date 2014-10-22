@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY articleTitle "&#36825;是一个主&#26631;&#39064;">
+<!ENTITY mainArticle SYSTEM "article.xml">
+]>
+<chapter>
+ <TITLE>&articleTitle;</TITLE>
+ <section note="link">
+  <informaltable>
+    <tbody>
+     <row>
+		<entry>第一章</entry>
+		<entry id="2">第二章</entry>
+     	<entry id="3">第三章</entry>
+		<entry id="4">第四章</entry>
+     </row>
+	 <row>
+		<entry id="5">第五章</entry>
+		<entry id="6">第六章</entry>
+     	<entry id="7">第七章</entry>
+		<entry id="8">第八章</entry>
+     </row>
+	 <row>
+		<entry id="9">第九章</entry>
+		<entry id="10">第十章</entry>
+	 </row>
+    </tbody>
+  </informaltable>
+ </section>
+ <TITLE></TITLE>
+ <section note="article">
+ &mainArticle;
+ </section>
+ <title>&#20851;于本文</title>
+ <section note="about">
+   <!-- &#36825;是注&#37322; -->
+   <?php echo 'PHP的版本是' . phpversion(); ?>
+ </section>
+</chapter>

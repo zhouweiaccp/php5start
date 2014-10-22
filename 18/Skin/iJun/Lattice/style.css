@@ -1,0 +1,155 @@
+/*
+Lattice Theme for Dream Fly
+Author: Gimmo
+http://www.eako.net
+*/
+body{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #C61213;
+	background-color: #FFFFFF;
+	background-image: url(background.gif);
+	background-repeat: repeat-y;
+	background-position: center;
+	scrollbar-face-color: #DDE2EC;
+	scrollbar-highlight-color: #DDE2EC;
+	scrollbar-shadow-color: #B8C2D7;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-arrow-color: #7C8EB2;
+	scrollbar-track-color: #F3F5F8;
+	scrollbar-darkshadow-color: #F3F5F8;
+}
+td {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #576C96;
+}
+.Revert {
+	color: #8B9CBC;
+}
+A:link, A:visited {
+	color: #576C96;
+	text-decoration: none;
+}
+A:hover, A:active {
+	color: #8B9CBC;
+	text-decoration: none;
+}
+input.button {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #576C96;
+	background-color: #F3F5F8;
+	height: 19px;
+	border: 1px solid #D6DCE7;
+	cursor: hand;
+}
+.text, INPUT.text, TEXTAREA, SELECT {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #576C96;
+	background-color: #F3F5F8;
+	height: 19px;
+	border: 1px solid #D6DCE7;
+}
+.locktext {
+	font-family: Verdana;
+	font-size: 11px;
+	background-color: #F3F5F8;
+	height: 19px;
+	border: 1px solid #D6DCE7;
+}
+.MenuBar{
+	background-color: #DBE0EA;
+	background-image: url('menubar.gif');
+	background-repeat: no-repeat;
+	height: 28px;
+}
+.MenuBar_B{
+	background-color: #DBE0EA;
+}
+#MenuBar, #MenuBar a:link, #MenuBar a:visited {
+	color: #45547D;
+	text-decoration: none;
+}
+#MenuBar a:hover, #MenuBar a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #576C96;
+}
+.TitleBar{ 
+	background-color: #DBE0EA;
+	background-image: url('titlebar.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 26px;
+}
+.TitleBar_L{
+	background-color: #DBE0EA;
+	background-image: url('titlebar_l.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 15px;
+}
+.TitleBar_R{
+	background-color: #DBE0EA;
+	background-image: url('titlebar_r.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 15px;
+}
+.TitleBar_T{
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.Border_L, .Border_R{
+	background-color: #DBE0EA;
+	width: 1px;
+}
+.Hemline{
+	background-color: #DBE0EA;
+	background-image: url('hemline.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 11px;
+}
+.Hemline_L {
+	background-color: #DBE0EA;
+	background-image: url('hemline_l.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 15px;
+}
+.Hemline_R {
+	background-color: #DBE0EA;
+	background-image: url('hemline_r.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 15px;
+}
+.Hemline_T {
+}
+.bgLine {
+	background-color: #DBE0EA;
+}
+hr {
+	color: #DBE0EA;
+}
+.insist {
+	color: #FF0000;
+}
+.ToolTip {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #576C96;
+	background-color: #FFFFFF;
+	border: 1px solid #DBE0EA;
+}
+.TextBox_1 { 
+	background-color: #FFFFFF;
+}
+.TextBox_2 {
+	background-color: #F8F9FB;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Department>
+	<employee id="2006001" birthday="1980-12-2"	salary="4000">
+		佟湘玉
+	</employee>
+	<employee id="2006098" birthday="1982-7-14"	salary="2900">
+		祝无双
+	</employee>
+	<employee id="2006099" birthday="1981-4-19"	salary="3000">
+		李大嘴
+	</employee>
+</Department>

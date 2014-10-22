@@ -1,0 +1,39 @@
+<HTML>
+<HEAD><TITLE>用户调查表单</TITLE></HEAD>
+<BODY background="background.gif">
+<H2>用户调查表单</H2>
+<FORM method="POST" action="formpost.php">
+<P>用户 ID ：<INPUT type="text" name="Name" size="20">
+<BR>用户性别：
+	<INPUT type="radio" value="2" name="Gender">男 
+	<INPUT type="radio" value="1" name="Gender">女 
+	<INPUT type="radio" value="0" name="Gender" checked>保密
+<BR>教育程度：
+	<SELECT size="1" name="Eduction">
+	  <OPTION value="1">初等学历</OPTION>
+	  <OPTION value="2" selected>学士</OPTION>
+	  <OPTION value="3">硕士/双学士</OPTION>
+	  <OPTION value="4">博士</OPTION></SELECT>
+<BR>企业类型：
+	<SELECT name="Company" size="3" multiple>
+	  <OPTION value="1">IT高科技行业</OPTION>
+	  <OPTION value="2">工业制造行业</OPTION>
+	  <OPTION value="3">商品流通行业</OPTION>
+	  <OPTION value="4">服务性行业</OPTION>
+	  <OPTION value="5">教育培训/科研院校</OPTION>
+	  <OPTION value="6">政府/非赢利机构</OPTION></SELECT>
+<BR>掌握语言：
+	<INPUT type="checkbox" value="a" name="Lans1">普通话 
+	<INPUT type="checkbox" value="b" name="Lans2">广东话
+	<INPUT type="checkbox" value="c" name="Lans3">英语
+	<INPUT type="checkbox" value="d" name="Lans4">日语
+	<INPUT type="checkbox" value="e" name="Lans5">韩语
+	<INPUT type="checkbox" value="f" name="Lans6">法语
+<BR>留言内容：
+	<TEXTAREA name="Comment" rows="4" cols="42"></TEXTAREA></P>
+<P><INPUT type="submit" value="提交" name="Submit">
+   <INPUT type="reset" value="清除表单" name="Reset"></P>
+</FORM>
+</BODY>
+</HTML>
+

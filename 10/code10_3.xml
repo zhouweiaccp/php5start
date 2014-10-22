@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<program>
+	<question>打印100以内的奇数</question>
+	<program>环境&gt;=PHP4</program>
+	<code>
+	  <![CDATA[
+		<?php
+		    $i=1;	//设置初值$i
+		    do{
+		    	if($i%2)
+		        echo "$i\n";
+		    	$i++;
+		    }while($i<100);
+		?>
+	  ]]>
+	</code>
+</program>

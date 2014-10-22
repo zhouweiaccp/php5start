@@ -1,0 +1,33 @@
+/*
+	Dream Fly(TM) GuestBook Theme Series
+	Type Name: Orange Harvesting (橘子熟了)
+	Author:    酷虫工作室 moth3k@163.com
+	Home Page: http://eviljun.1816.net/ 酷虫在线
+	
+	This CSS templet is used for version XP2000 or later
+*/
+
+body {font-size: 9.3pt; font-family: "宋体"; cursor: default; background-color: #FBB85E; background-image: url(bj.gif); scrollbar-face-color: #EDEDED; scrollbar-highlight-color: #E6E6E6; scrollbar-shadow-color: #FFFFFF; scrollbar-3dlight-color: #FFFFFF; scrollbar-arrow-color: #FAA532; scrollbar-track-color: #F5F5F5; scrollbar-darkshadow-color: #242930 }
+td   {font-size: 9.3pt; color: #333333 }
+.text, input.text ,textarea,select, input.button {font-size: 9.2pt; border: 1px solid #7F9DB9; background-color: #FFFCF3}
+input.locktext { border: 1px solid #EFF1F3; background-color: #EFF1F3}
+A:link, A:visited {text-decoration: none; color: #003300 }
+A:hover, A:active {color: #006666; text-decoration: underline }
+
+#imgButton A:hover{position:relative; left:-4; top:-4; background-image: url('bgbtn.gif'); }
+
+.Revert {color: #003300}
+.MenuBar_B {background-color: #F3F3F3;} 
+.MenuBar {color : #000000; height: 24px; background-image: url(MenuBar.gif); background-repeat: repeat-x; background-color: orange;}
+#MenuBar, #MenuBar a:link, #MenuBar a:visited {color: #FFFFFF; text-decoration: none;}
+#MenuBar a:hover,#MenuBar a:active {color: #666666}
+.TitleBar {height: 24px;	background-image: url('TitleBar.gif'); background-repeat: repeat-x; background-color: #E9EEF6; border-top: 1px solid #C0C3CB; border-left: 1px solid #C0C3CB; border-right: 1px solid #C0C3CB;}
+.TitleBar_T {font-weight: bold; color: #000000;}
+.TitleBar_L {width: 15px;}
+.TitleBar_R {}
+.Border_R, .Border_L {width: 1px; background-color: #C3C3C3;}
+.TextBox_1 {background-color: #EFF1F3;}
+.TextBox_2 {background-color: #F6F9FD;}
+.bgLine {background-color: #AAAAAA;}
+.insist { color: #FF0000; }
+.ToolTip { border: 1px solid #999999; background-color: #F9F9F9; color:333333 }

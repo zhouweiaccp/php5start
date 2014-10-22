@@ -1,0 +1,96 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>AJAX结合PHP</title>
+<script language="javascript">
+	var xmlhttp = false;
+	var currentPos = null;
+	
+	//开始初始化XMLHttpRequest对象
+	if(window.XMLHttpRequest)
+	{
+		//Mozilla 浏览器
+		xmlhttp = new XMLHttpRequest();
+		if (xmlhttp.overrideMimeType) {//设置MIME类别
+			xmlhttp.overrideMimeType('text/xml');
+		}
+	}
+	else if (window.ActiveXObject) 
+	{
+		// IE浏览器
+		try {
+			xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e) {}
+		}
+	}
+	//对象初始化结束
+
+	//发送HTTP请求
+	function sendRequest(url) {
+
+		if (!xmlhttp) { // 异常，创建对象实例失败
+			window.alert("不能创建XMLHttpRequest对象实例.");
+			return false;
+		}
+
+		//确定发送请求的方式和URL以及是否同步执行下段代码
+		xmlhttp.open("GET", url, true);
+
+		//指定处理函数
+		xmlhttp.onreadystatechange = processRequest;
+
+		//发送请求
+		xmlhttp.send(null);
+	}
+
+	//处理返回信息的函数
+	function processRequest()
+	{
+        if (xmlhttp.readyState == 4) { // 判断对象状态
+            if (xmlhttp.status == 200) { // 信息已经成功返回，开始处理信息
+                alert(xmlhttp.responseText);
+			  document.getElementById(currentPos).innerHTML = xmlhttp.responseText;
+            } else { //页面不正常
+                alert("您所请求的页面有异常。");
+            }
+        }
+    }
+
+	//显示部门下的岗位
+	function showPos(obj)
+	{
+		document.getElementById(obj).parentNode.style.display = "";
+		document.getElementById(obj).innerHTML = "正在读取数据..."
+		currentPos = obj;
+		sendRequest("server.php?playPos="+obj);
+	}
+</script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table width="200" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="20"><a href="javascript:void(0)" onClick="showPos('pos_1')">经理室</a></td>
+    </tr>
+    <tr style="display:none">
+        <td height="20" id="pos_1">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20"><a href="javascript:void(0)" onClick="showPos('pos_2')">开发部</a></td>
+    </tr>
+    <tr style="display:none ">
+        <td id="pos_2" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20"><a href="javascript:void(0)" onClick="showPos('pos_3')">财务部</a></td>
+    </tr>
+    <tr style="display:none ">
+        <td id="pos_3" height="20">&nbsp;</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+CREATE DATABASE category;
+use category;
+
+CREATE TABLE `category`.`category` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `category_name` VARCHAR(255) NOT NULL DEFAULT '',
+  `parent_id` INTEGER UNSIGNED NOT NULL DEFAULT 0,
+  `plugin_id` INTEGER UNSIGNED DEFAULT 0,
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB DEFAULT CHARSET=UTF8;
+
+CREATE TABLE `category`.`city` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `city_name` VARCHAR(255) NOT NULL DEFAULT '',
+  `parent_id` INTEGER UNSIGNED NOT NULL DEFAULT 0,
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB DEFAULT CHARSET=UTF8;
+
+CREATE TABLE `category`.`message` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(255) NOT NULL DEFAULT '',
+  `content` TEXT NOT NULL DEFAULT '',
+  `mail` VARCHAR(255) DEFAULT '',
+  `tel` VARCHAR(255) DEFAULT '',
+  `time` VARCHAR(45) NOT NULL DEFAULT '',
+  `ip_addr` VARCHAR(45) NOT NULL DEFAULT '',
+  `city_id` VARCHAR(45) NOT NULL,
+  `category_id` VARCHAR(45) NOT NULL,
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB DEFAULT CHARSET=UTF8;
+
+CREATE TABLE `category`.`users` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NOT NULL DEFAULT '',
+  `password` VARCHAR(255) NOT NULL DEFAULT '',
+  `type` VARCHAR(10) NOT NULL DEFAULT '',
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB DEFAULT CHARSET=UTF8;
+
+insert into users(username,password,type) value('admin','','admin');

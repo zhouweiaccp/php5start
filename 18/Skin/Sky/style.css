@@ -1,0 +1,151 @@
+/*
+	Dream Fly(TM) GuestBook Theme Series
+	Type Name: Sky and Sea (碧海云天)
+	Author:    酷虫工作室 moth3k@163.com
+	
+	
+	This CSS templet is used for version 3.0 (v20031120) or later
+*/
+
+BODY{
+	font-size: 12px;
+	color: #000000;
+	font-family:  宋体;
+	background-color: #FCFCFC; 
+	scrollbar-face-color: #BBC1DA;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #FCFCFC;
+	scrollbar-3dlight-color: #ECECEC;
+	scrollbar-arrow-color:  #FFFFFF;
+	scrollbar-track-color: #ECECEC;
+	scrollbar-darkshadow-color: #999966; 
+	background-image:url('bj.gif')
+}
+
+TD { font-size: 9pt; color: #333333; }
+
+.Revert { color: #0760FE;}
+
+A:link , A:visited {color: #333333; text-decoration: none;}
+A:hover, A:active { color: #0760FE; text-decoration: underline;}}
+
+.text, INPUT.text, TEXTAREA, SELECT, INPUT.button {
+	font-size: 9pt;
+	border: 1px solid #666699;
+	background-color: #F3F3F3;
+}
+.locktext {
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+
+.MenuBar_B{
+	background-color: #9CA6C6;
+}
+.MenuBar{
+    color : #000000;
+	height: 24px;
+	background-image: url('MenuBar.gif');
+	background-repeat: repeat-x;
+	background-color: #F0F0F0;
+}
+#MenuBar, #MenuBar a:link, #MenuBar a:visited { color: #333333; text-decoration: none;}
+#MenuBar a:hover,#MenuBar a:active{ color: #FF3300}
+
+/* 
+标题栏 样式
+  背景可由单一图片（width : 730）构成，此时仅使用 TitleBar 即可。
+  也可分为左、中、右三部分组合而成，需辅助以下样式 TitleBar_L、
+  TitleBar_T、TitleBar_R。
+
+  TitleBar   : 高度、背景图片／颜色、边框
+  TitleBar_L : 宽度、背景图片
+  TitleBar_T : 宽度、背景图片、文字
+  TitleBar_R : 宽度、背景图片
+*/
+
+.TitleBar{ 
+	height: 32px;
+	background-image: url('TitleBar.gif');
+	background-repeat: repeat-x;
+	background-color: #9CA6C6;
+}
+.TitleBar_R{
+	width: 58px;
+	background-image: url('TitleBar_R.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.TitleBar_L{
+	width: 14px;
+	background-image: url('TitleBar_L.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.TitleBar_T{
+	font-family: "宋体", "Times New Roman";	
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+}
+
+/*
+文字框左右边框 样式
+  建议使用图片边框，主要设定宽度（1-5）、背景颜色／图片
+*/
+.Border_L, .Border_R{
+	width: 1px;
+	background-color: #9CA6C6
+}
+
+/*
+底线 样式
+  类似 标题栏
+*/
+
+.Hemline{
+	height: 9px;
+	background-image: url('Hemline.gif');
+	background-repeat: repeat-x;
+	background-color: #F0F0F0;
+}
+.Hemline_L {
+	width: 14px;
+	background-image: url('Hemline_L.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.Hemline_R {
+	width: 14px;
+	background-image: url('Hemline_R.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.Hemline_T {}
+
+/*
+文本区线形 样式
+  bgLine ：用于宽度（或高度）为 1 的线。由单元格构成，主要指定其背景颜色。
+  hr     ：由于 <HR> 标签的样式，长度已定。主要指定其颜色。
+*/
+
+.bgLine {
+	background-image: url('dot.gif');
+	background-color: #D0D5E6;
+}
+hr {
+	color: #BCBDCD;
+}
+.insist { color: #FF0000; }
+.ToolTip   { border: 1px solid #8492B9; background-color: #F9F9F9; color:333333 }
+
+
+/*
+文本显示区背景 样式
+  背景、边框
+*/
+.TextBox_1 ,.TextBox_2 { 
+	background-color: #FFFFFF;
+	background-image: url('TextBg.gif');
+	background-repeat: repeat-x;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!DOCTYPE department SYSTEM "department.dtd">
+
+<!-- XML文件名：department.xml -->
+<Department>
+	<employee>
+		<id>2006001</id>
+		<name>佟湘玉</name>
+		<birthday>1980-12-2</birthday>
+		<salary>4000</salary>
+	</employee>
+	<employee>
+		<id>2006098</id>
+		<name>祝无双</name>
+		<birthday>1982-7-14</birthday>
+		<salary>2900</salary>
+	</employee>
+	<employee>
+		<id>2006099</id>
+		<name>李大嘴</name>
+		<birthday>1981-4-19</birthday>
+		<salary>3000</salary>
+	</employee>
+</Department>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE article [
+<!ENTITY subTitle "<b>引子</b>">
+]>
+<article>
+   <element attrib="value"/>
+   &subTitle;
+   <?php echo "<br />&#36825;里&#25191;行的是PHP指令。"; ?>
+   <![CDATA[
+   <hr />&#36825;里可以包含更多的数据，
+   <br />也可以包含HTML代&#30721;。
+   ]]>
+</article>

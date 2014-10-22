@@ -1,0 +1,13 @@
+TD, INPUT,TEXTAREA { font-size:12px }
+TABLE {background-color:#666666}
+.HeaderRow{
+	font-size:14px;
+	font-weight:bold;
+	background-color:#666666;
+	color:#ffffff;
+}
+.SubTitleRow{background-color:#fefefe;}
+.InputRow{background-color:#EFEFEF;}
+.redfont {color: #FF0000}
+.InputRow0{background-color:#EFEFEF;}
+.InputRow1{background-color:#FEFEFE;}

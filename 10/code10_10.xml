@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OrderInfo>
+	<OrderID>20061204WC001</OrderID>
+	<ClientInfo>
+		<FirstName>李</FirstName>
+		<SecondName>大嘴</SecondName>
+		<Address>北京市和平里一号</Address>
+	</ClientInfo>
+	<OrderedProducts>
+		<item>
+			<ProductName>XX商品1</ProductName>
+			<Scale>100x70x60</Scale>
+			<Color>&#38134;白</Color>
+			<Amount>1</Amount>
+			<Price>1500</Price>
+		</item>
+		<item>
+			<ProductName>XX商品2</ProductName>
+			<Scale>105x80x60</Scale>
+			<Color>&#33395;&#32418;</Color>
+			<Amount>2</Amount>
+			<Price>1000</Price>
+		</item>
+		<item>
+			<ProductName>XX商品2</ProductName>
+			<Scale>8cm</Scale>
+			<Color>翠&#32511;</Color>
+			<Amount>1</Amount>
+			<Price>500</Price>
+		</item>
+	</OrderedProducts>
+	<TotalPrice>4500</TotalPrice>
+	<?php 
+		echo "<p align=right>当前日期：";
+		echo date("Y-m-d H:i:s"); 
+	?>
+</OrderInfo>

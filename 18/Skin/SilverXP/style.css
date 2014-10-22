@@ -1,0 +1,105 @@
+/*
+	Dream Fly(TM) GuestBook Theme - "Window XP Silver"
+	Type Name: WindowsXP Silver Style (Windows XP 银色)
+	Author:    酷虫工作室 moth3k@163.com
+	
+	
+	This CSS templet is used for version 3.0 (v20031120) or later
+*/
+
+BODY{
+	font-size: 12px;
+	color: #000000;
+	font-family:  宋体;
+	background-color: #EEEEEE; 
+	scrollbar-face-color: #CCCDDB;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #7D7E99;
+	scrollbar-3dlight-color: #ECECF1;
+	scrollbar-arrow-color:  #FFFFFF;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1; 
+	background-image:url('bj.gif')
+}
+
+.Revert { color: #000000;}
+
+TD { font-size: 9pt; color: #333333;}
+A:link , A:visited {color: #333333; text-decoration: none;}
+A:hover, A:active { color: red;}
+.text, INPUT.text, TEXTAREA, SELECT, INPUT.button {
+	font-size: 9pt;
+	border: 1px solid #666699;
+	background-color: #F4F4FF;
+}
+.locktext {	background-color: #F3F3F3; border: 1px solid #F3F3F3;}
+.MenuBar_B{	background-color: #BCBDCD;}
+.MenuBar{ color : #000000; height: 24px; background-image: url('MenuBar.gif'); background-repeat: repeat-x; background-color: #B6B6C6;}
+#MenuBar, #MenuBar a:link, #MenuBar a:visited { color: #333333; text-decoration: none;}
+#MenuBar a:hover,#MenuBar a:active{ color: #FF3300}
+
+.TitleBar{ 
+	height: 28px;
+	background-image: url('TitleBar.gif');
+	background-repeat: repeat-x;
+	background-color: #B6B6C6;
+}
+.TitleBar_R{
+	width: 5px;
+	background-image: url('TitleBar_R.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.TitleBar_L{
+	width: 5px;
+	background-image: url('TitleBar_L.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.TitleBar_T{
+	font-family: "宋体", "Times New Roman";	
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.Border_L {
+	width: 4px;
+	background-image: url('Border_L.gif');
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.Border_R {
+	width: 4px;
+	background-image: url('Border_R.gif');
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+.Hemline{
+	height: 6px;
+	background-image: url('Hemline.gif');
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.Hemline_L {
+	width: 6px;
+	background-image: url('Hemline_L.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.Hemline_R {
+	width: 6px;
+	background-image: url('Hemline_R.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.Hemline_T { }
+
+.bgLine { background-color: #66667E;}
+hr { color: #BCBDCD;}
+.insist { color: #FF0000; }
+.ToolTip   { border: 1px solid #66667E; background-color: #F9F9F9; color:333333 }
+
+.TextBox_1 { background-color: #F3F3F3;}
+.TextBox_2 { background-color: #FDFDFD;}
