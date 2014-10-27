@@ -5,10 +5,15 @@
 李大嘴,M,1981,河北,普通职员
 佟湘玉,F,1980,山西,项目经理
 EOT;
-	$lines = explode("\n", $text);				//将多行数据分开
+        $lines = explode("\n", $text);				//将多行数据分开
 	foreach($lines as $userinfo)
 	{
+         
 		$info = explode(",", $userinfo, 3);		//仅分割前三个数据
+               // echo array_count_values($info);
+                echo count($info);
+                echo( array_keys($info));
+                echo "<br.>";
 		$name = $info[0];
 		$sex = ($info[1] == "F") ? "女" : "男";
 		$age = $this_year - $info[2];

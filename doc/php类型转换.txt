@@ -1,0 +1,6 @@
+(int)$a, (integer)$a
+(float),(real),(double)
+(string)
+(bool),(Boolean)
+(array)
+(object)
